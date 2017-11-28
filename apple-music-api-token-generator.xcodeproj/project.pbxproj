@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55485CC11FCBE14000FE6C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55485CC01FCBE14000FE6C40 /* AppDelegate.swift */; };
+		55485CC31FCBE14000FE6C40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55485CC21FCBE14000FE6C40 /* ViewController.swift */; };
+		55485CC61FCBE14000FE6C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55485CC41FCBE14000FE6C40 /* Main.storyboard */; };
+		55485CC81FCBE14000FE6C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55485CC71FCBE14000FE6C40 /* Assets.xcassets */; };
+		55485CCB1FCBE14000FE6C40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55485CC91FCBE14000FE6C40 /* LaunchScreen.storyboard */; };
+		55485CD61FCBE14000FE6C40 /* apple_music_api_token_generatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55485CD51FCBE14000FE6C40 /* apple_music_api_token_generatorTests.swift */; };
+		55485CE11FCBE14100FE6C40 /* apple_music_api_token_generatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55485CE01FCBE14100FE6C40 /* apple_music_api_token_generatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55485CD21FCBE14000FE6C40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55485CB51FCBE14000FE6C40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55485CBC1FCBE14000FE6C40;
+			remoteInfo = "apple-music-api-token-generator";
+		};
+		55485CDD1FCBE14000FE6C40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55485CB51FCBE14000FE6C40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55485CBC1FCBE14000FE6C40;
+			remoteInfo = "apple-music-api-token-generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55485CBD1FCBE14000FE6C40 /* apple-music-api-token-generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "apple-music-api-token-generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55485CC01FCBE14000FE6C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55485CC21FCBE14000FE6C40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55485CC51FCBE14000FE6C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55485CC71FCBE14000FE6C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55485CCA1FCBE14000FE6C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55485CCC1FCBE14000FE6C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55485CD11FCBE14000FE6C40 /* apple-music-api-token-generatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apple-music-api-token-generatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55485CD51FCBE14000FE6C40 /* apple_music_api_token_generatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_music_api_token_generatorTests.swift; sourceTree = "<group>"; };
+		55485CD71FCBE14000FE6C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55485CDC1FCBE14000FE6C40 /* apple-music-api-token-generatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apple-music-api-token-generatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55485CE01FCBE14100FE6C40 /* apple_music_api_token_generatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_music_api_token_generatorUITests.swift; sourceTree = "<group>"; };
+		55485CE21FCBE14100FE6C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55485CEE1FCCF94100FE6C40 /* apple-music-api-token-generator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "apple-music-api-token-generator.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55485CBA1FCBE14000FE6C40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55485CCE1FCBE14000FE6C40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55485CD91FCBE14000FE6C40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55485CB41FCBE14000FE6C40 = {
+			isa = PBXGroup;
+			children = (
+				55485CBF1FCBE14000FE6C40 /* apple-music-api-token-generator */,
+				55485CD41FCBE14000FE6C40 /* apple-music-api-token-generatorTests */,
+				55485CDF1FCBE14100FE6C40 /* apple-music-api-token-generatorUITests */,
+				55485CBE1FCBE14000FE6C40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55485CBE1FCBE14000FE6C40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55485CBD1FCBE14000FE6C40 /* apple-music-api-token-generator.app */,
+				55485CD11FCBE14000FE6C40 /* apple-music-api-token-generatorTests.xctest */,
+				55485CDC1FCBE14000FE6C40 /* apple-music-api-token-generatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55485CBF1FCBE14000FE6C40 /* apple-music-api-token-generator */ = {
+			isa = PBXGroup;
+			children = (
+				55485CEE1FCCF94100FE6C40 /* apple-music-api-token-generator.entitlements */,
+				55485CC01FCBE14000FE6C40 /* AppDelegate.swift */,
+				55485CC21FCBE14000FE6C40 /* ViewController.swift */,
+				55485CC41FCBE14000FE6C40 /* Main.storyboard */,
+				55485CC71FCBE14000FE6C40 /* Assets.xcassets */,
+				55485CC91FCBE14000FE6C40 /* LaunchScreen.storyboard */,
+				55485CCC1FCBE14000FE6C40 /* Info.plist */,
+			);
+			path = "apple-music-api-token-generator";
+			sourceTree = "<group>";
+		};
+		55485CD41FCBE14000FE6C40 /* apple-music-api-token-generatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				55485CD51FCBE14000FE6C40 /* apple_music_api_token_generatorTests.swift */,
+				55485CD71FCBE14000FE6C40 /* Info.plist */,
+			);
+			path = "apple-music-api-token-generatorTests";
+			sourceTree = "<group>";
+		};
+		55485CDF1FCBE14100FE6C40 /* apple-music-api-token-generatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55485CE01FCBE14100FE6C40 /* apple_music_api_token_generatorUITests.swift */,
+				55485CE21FCBE14100FE6C40 /* Info.plist */,
+			);
+			path = "apple-music-api-token-generatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55485CBC1FCBE14000FE6C40 /* apple-music-api-token-generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55485CE51FCBE14100FE6C40 /* Build configuration list for PBXNativeTarget "apple-music-api-token-generator" */;
+			buildPhases = (
+				55485CB91FCBE14000FE6C40 /* Sources */,
+				55485CBA1FCBE14000FE6C40 /* Frameworks */,
+				55485CBB1FCBE14000FE6C40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "apple-music-api-token-generator";
+			productName = "apple-music-api-token-generator";
+			productReference = 55485CBD1FCBE14000FE6C40 /* apple-music-api-token-generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55485CD01FCBE14000FE6C40 /* apple-music-api-token-generatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55485CE81FCBE14100FE6C40 /* Build configuration list for PBXNativeTarget "apple-music-api-token-generatorTests" */;
+			buildPhases = (
+				55485CCD1FCBE14000FE6C40 /* Sources */,
+				55485CCE1FCBE14000FE6C40 /* Frameworks */,
+				55485CCF1FCBE14000FE6C40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55485CD31FCBE14000FE6C40 /* PBXTargetDependency */,
+			);
+			name = "apple-music-api-token-generatorTests";
+			productName = "apple-music-api-token-generatorTests";
+			productReference = 55485CD11FCBE14000FE6C40 /* apple-music-api-token-generatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55485CDB1FCBE14000FE6C40 /* apple-music-api-token-generatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55485CEB1FCBE14100FE6C40 /* Build configuration list for PBXNativeTarget "apple-music-api-token-generatorUITests" */;
+			buildPhases = (
+				55485CD81FCBE14000FE6C40 /* Sources */,
+				55485CD91FCBE14000FE6C40 /* Frameworks */,
+				55485CDA1FCBE14000FE6C40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55485CDE1FCBE14000FE6C40 /* PBXTargetDependency */,
+			);
+			name = "apple-music-api-token-generatorUITests";
+			productName = "apple-music-api-token-generatorUITests";
+			productReference = 55485CDC1FCBE14000FE6C40 /* apple-music-api-token-generatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55485CB51FCBE14000FE6C40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = wajiwaji;
+				TargetAttributes = {
+					55485CBC1FCBE14000FE6C40 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+					55485CD01FCBE14000FE6C40 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55485CBC1FCBE14000FE6C40;
+					};
+					55485CDB1FCBE14000FE6C40 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55485CBC1FCBE14000FE6C40;
+					};
+				};
+			};
+			buildConfigurationList = 55485CB81FCBE14000FE6C40 /* Build configuration list for PBXProject "apple-music-api-token-generator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55485CB41FCBE14000FE6C40;
+			productRefGroup = 55485CBE1FCBE14000FE6C40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55485CBC1FCBE14000FE6C40 /* apple-music-api-token-generator */,
+				55485CD01FCBE14000FE6C40 /* apple-music-api-token-generatorTests */,
+				55485CDB1FCBE14000FE6C40 /* apple-music-api-token-generatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55485CBB1FCBE14000FE6C40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55485CCB1FCBE14000FE6C40 /* LaunchScreen.storyboard in Resources */,
+				55485CC81FCBE14000FE6C40 /* Assets.xcassets in Resources */,
+				55485CC61FCBE14000FE6C40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55485CCF1FCBE14000FE6C40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55485CDA1FCBE14000FE6C40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55485CB91FCBE14000FE6C40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55485CC31FCBE14000FE6C40 /* ViewController.swift in Sources */,
+				55485CC11FCBE14000FE6C40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55485CCD1FCBE14000FE6C40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55485CD61FCBE14000FE6C40 /* apple_music_api_token_generatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55485CD81FCBE14000FE6C40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55485CE11FCBE14100FE6C40 /* apple_music_api_token_generatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55485CD31FCBE14000FE6C40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55485CBC1FCBE14000FE6C40 /* apple-music-api-token-generator */;
+			targetProxy = 55485CD21FCBE14000FE6C40 /* PBXContainerItemProxy */;
+		};
+		55485CDE1FCBE14000FE6C40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55485CBC1FCBE14000FE6C40 /* apple-music-api-token-generator */;
+			targetProxy = 55485CDD1FCBE14000FE6C40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55485CC41FCBE14000FE6C40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55485CC51FCBE14000FE6C40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55485CC91FCBE14000FE6C40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55485CCA1FCBE14000FE6C40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55485CE31FCBE14100FE6C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55485CE41FCBE14100FE6C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55485CE61FCBE14100FE6C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KEF74664JD;
+				INFOPLIST_FILE = "apple-music-api-token-generator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amtgenerator.apple-music-api-token-generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55485CE71FCBE14100FE6C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "apple-music-api-token-generator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amtgenerator.apple-music-api-token-generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55485CE91FCBE14100FE6C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26P75UD57F;
+				INFOPLIST_FILE = "apple-music-api-token-generatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amtgenerator.apple-music-api-token-generatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apple-music-api-token-generator.app/apple-music-api-token-generator";
+			};
+			name = Debug;
+		};
+		55485CEA1FCBE14100FE6C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26P75UD57F;
+				INFOPLIST_FILE = "apple-music-api-token-generatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amtgenerator.apple-music-api-token-generatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apple-music-api-token-generator.app/apple-music-api-token-generator";
+			};
+			name = Release;
+		};
+		55485CEC1FCBE14100FE6C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26P75UD57F;
+				INFOPLIST_FILE = "apple-music-api-token-generatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amtgenerator.apple-music-api-token-generatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "apple-music-api-token-generator";
+			};
+			name = Debug;
+		};
+		55485CED1FCBE14100FE6C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26P75UD57F;
+				INFOPLIST_FILE = "apple-music-api-token-generatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "amtgenerator.apple-music-api-token-generatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "apple-music-api-token-generator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55485CB81FCBE14000FE6C40 /* Build configuration list for PBXProject "apple-music-api-token-generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55485CE31FCBE14100FE6C40 /* Debug */,
+				55485CE41FCBE14100FE6C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55485CE51FCBE14100FE6C40 /* Build configuration list for PBXNativeTarget "apple-music-api-token-generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55485CE61FCBE14100FE6C40 /* Debug */,
+				55485CE71FCBE14100FE6C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55485CE81FCBE14100FE6C40 /* Build configuration list for PBXNativeTarget "apple-music-api-token-generatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55485CE91FCBE14100FE6C40 /* Debug */,
+				55485CEA1FCBE14100FE6C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55485CEB1FCBE14100FE6C40 /* Build configuration list for PBXNativeTarget "apple-music-api-token-generatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55485CEC1FCBE14100FE6C40 /* Debug */,
+				55485CED1FCBE14100FE6C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55485CB51FCBE14000FE6C40 /* Project object */;
+}
